@@ -2,9 +2,10 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
-import multer from "multer";
 import morgan from "morgan";
 import router from "./router/router.js";
+
+
 
 let app = express();
 dotenv.config();
